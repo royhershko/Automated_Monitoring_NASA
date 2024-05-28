@@ -1,1 +1,11 @@
+Sign Up for an API Key:
 
+Visit the NASA API portal.
+Sign up for an API key. This key will be used to authenticate your requests.
+Choose an Endpoint to Monitor:
+
+Decide which specific API endpoint you want to monitor. Some popular choices include:
+Astronomy Picture of the Day (APOD): https://api.nasa.gov/planetary/apod
+Mars Rover Photos: https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos
+Near Earth Object Web Service (NeoWs): https://api.nasa.gov/neo/rest/v1/neo/browse
+Earth Observatory Natural Event Tracker (EONET): https://eonet.sci.gsfc.nasa.gov/api/v2.1/events

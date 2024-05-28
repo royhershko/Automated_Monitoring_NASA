@@ -43,6 +43,8 @@ python3 nasa_monitor.py
 
 6. **Configure Grafana**
    * Access Grafana
+        * http://localhost:3000
+        * user & pass = 'admin' (need to change the pass).
    * Add Prometheus Data Source
         * URL: http://localhost:9090
         * Click Save & Test.

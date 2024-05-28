@@ -46,6 +46,9 @@ python3 nasa_monitor.py
    * Add Prometheus Data Source
    * Create a Dashboard
    * Customize the Dashboard
+
+7. **Create Alerting Rules in Prometheus**
+   * Create Alerting Rules File
    
 
 

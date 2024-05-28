@@ -30,6 +30,8 @@ To run the monitoring script, execute the following command in the terminal:
 python3 nasa_monitor.py
 
 4. **Set Up Prometheus and Grafana Using Docker**:
+   Create a Docker Network
+   Create Prometheus Configuration File
 
 
 

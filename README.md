@@ -55,6 +55,12 @@ python3 nasa_monitor.py
 8. **Set Up Alertmanager**
    * Install Alertmanager
    * Create Alertmanager Configuration File
+   * Start Alertmanager
+
+9. **Configure Grafana to Send Alerts**
+    * Configure Notification Channels in Grafana
+    * Create Alert Rules in Grafana
+    * 
    
 
 

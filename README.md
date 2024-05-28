@@ -44,6 +44,8 @@ python3 nasa_monitor.py
 6. **Configure Grafana**
    * Access Grafana
    * Add Prometheus Data Source
+        * URL: http://localhost:9090
+        * Click Save & Test.
    * Create a Dashboard
    * Customize the Dashboard
 
@@ -60,7 +62,8 @@ python3 nasa_monitor.py
 9. **Configure Grafana to Send Alerts**
     * Configure Notification Channels in Grafana
     * Create Alert Rules in Grafana
-    * 
+  
+10. **Simulate Service Downtime**
    
 
 

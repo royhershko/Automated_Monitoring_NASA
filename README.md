@@ -26,5 +26,6 @@ This project monitors the NASA Astronomy Picture of the Day (APOD) API endpoint 
    Running the Script
 To run the monitoring script, execute the following command in the terminal:
 
+  ```bash
 python3 nasa_monitor.py
 

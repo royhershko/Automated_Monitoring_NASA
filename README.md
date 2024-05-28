@@ -49,6 +49,7 @@ python3 nasa_monitor.py
         * URL: http://localhost:9090
         * Click Save & Test.
    * Create a Dashboard
+        * Dashboard [NAME] = 'NASA-SRE'
    * Customize the Dashboard
 
 7. **Create Alerting Rules in Prometheus**
@@ -64,6 +65,7 @@ python3 nasa_monitor.py
 9. **Configure Grafana to Send Alerts**
     * Configure Notification Channels in Grafana
     * Create Alert Rules in Grafana
+        * Alert Group - 'Alert > DevOps'
   
 10. **Simulate Service Downtime**
    

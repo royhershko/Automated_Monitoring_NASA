@@ -71,15 +71,16 @@ python3 nasa_monitor.py
 
      * Service Downtime
          * Modify /etc/hosts:
-```bash
-127.0.0.1 api.nasa.gov
-```
+
+   * 127.0.0.1 api.nasa.gov
+
 
 Verify errors in Prometheus and Grafana.
 Restore /etc/hosts after testing:
 
-# 127.0.0.1 api.nasa.gov
-Performance Degradation
+   * 127.0.0.1 api.nasa.gov
+
+**Performance Degradation**
 Introduce delay in Python script:
 
 time.sleep(5)
@@ -92,7 +93,7 @@ API_KEY = 'invalid_api_key'
 Verify error rate metrics in Prometheus and Grafana.
 Restore valid API key after testing.
 
-Verification
+**Verification**
 Check Prometheus: Verify metrics collection in the Prometheus web UI.
 Check Grafana: Ensure panels are displaying metrics correctly.
 Check Alertmanager: Verify alerts are triggered when thresholds are exceeded.

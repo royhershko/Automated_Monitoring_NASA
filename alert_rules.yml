@@ -1,0 +1,38 @@
+groups:
+  - name: nasa_monitoring_rules
+    rules:
+      - alert: HighResponseTime
+        expr: rate(request_processing_seconds_sum[1m]) / rate(request_processing_seconds_count[1m]) > 0.5
+        for: 1m
+        labels:
+          severity: warning
+        annotations:
+          summary: "High Response Time"
+          description: "The HTTP response time is greater than 0.5 seconds for more than 1 minute."
+
+      - alert: HighErrorRate
+        expr: rate(error_count[1m]) > 5
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "High Error Rate"
+          description: "The error rate is greater than 5 errors per minute for more than 1 minute."
+
+      - alert: HighCPUUsage
+        expr: 100 - (avg by(instance) (irate(node_cpu_seconds_total{mode="idle"}[5m])) * 100) > 80
+        for: 1m
+        labels:
+          severity: warning
+        annotations:
+          summary: "High CPU Usage"
+          description: "The CPU usage is greater than 80% for more than 1 minute."
+
+      - alert: HighMemoryUsage
+        expr: node_memory_Active_bytes / node_memory_MemTotal_bytes * 100 > 80
+        for: 1m
+        labels:
+          severity: warning
+        annotations:
+          summary: "High Memory Usage"
+          description: "The memory usage is greater than 80% for more than 1 minute."

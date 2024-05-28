@@ -18,16 +18,18 @@ This project monitors the NASA Astronomy Picture of the Day (APOD) API endpoint 
 2. **Install the `python3-venv` Package**:
    On Debian/Ubuntu systems, run the following commands to install the `python3-venv` package:
 
-   ```bash
+```bash
    sudo apt update
    sudo apt install python3-venv
+```
 
 3. **Running the Script**:
    Running the Script
 To run the monitoring script, execute the following command in the terminal:
 
-  ```bash
+```bash
 python3 nasa_monitor.py
+```
 
 4. **Set Up Prometheus and Grafana Using Docker**:
    Create a Docker Network

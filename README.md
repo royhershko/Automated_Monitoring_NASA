@@ -49,6 +49,7 @@ python3 nasa_monitor.py
 
 7. **Create Alerting Rules in Prometheus**
    * Create Alerting Rules File
+   * Update Prometheus Configuration
    
 
 

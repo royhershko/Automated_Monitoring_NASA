@@ -34,6 +34,15 @@ python3 nasa_monitor.py
 4. **Set Up Prometheus and Grafana Using Docker**:
    * Create a Docker Network
    * Create Prometheus Configuration File
+   * Start Prometheus Container
+   * Start Grafana Container
+  
+5. **2. Modify the Monitoring Script to Expose Metrics**:
+   * Install Prometheus Client Library
+   * Update the Script to Expose Metrics
+   
+
+
 
 
 

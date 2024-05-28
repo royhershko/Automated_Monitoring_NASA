@@ -53,6 +53,8 @@ python3 nasa_monitor.py
    * Restart Prometheus
   
 8. **Set Up Alertmanager**
+   * Install Alertmanager
+   * Create Alertmanager Configuration File
    
 
 

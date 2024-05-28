@@ -100,9 +100,9 @@ API_KEY = 'invalid_api_key'
   3. Restore valid API key after testing.
 
 **Verification**
-Check Prometheus: Verify metrics collection in the Prometheus web UI.
-Check Grafana: Ensure panels are displaying metrics correctly.
-Check Alertmanager: Verify alerts are triggered when thresholds are exceeded.
+ * **Check Prometheus**: Verify metrics collection in the Prometheus web UI.
+ * **Check Grafana**: Ensure panels are displaying metrics correctly.
+ * **Check Alertmanager**: Verify alerts are triggered when thresholds are exceeded.
    
 
 

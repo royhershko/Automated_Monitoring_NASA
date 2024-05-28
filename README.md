@@ -81,17 +81,23 @@ Restore /etc/hosts after testing:
    * 127.0.0.1 api.nasa.gov
 
 **Performance Degradation**
-Introduce delay in Python script:
+  1. Introduce delay in Python script:
 
-time.sleep(5)
-Verify response time metrics in Prometheus and Grafana.
-Remove delay after testing.
-Increased Error Rates
-Use an invalid API key in Python script:
+```bash
+* time.sleep(5)
+``` 
 
+  2. Verify response time metrics in Prometheus and Grafana.
+  3. Remove delay after testing.
+     
+**Increased Error Rates**
+  1. Use an invalid API key in Python script:
+
+```bash
 API_KEY = 'invalid_api_key'
-Verify error rate metrics in Prometheus and Grafana.
-Restore valid API key after testing.
+``` 
+  2. Verify error rate metrics in Prometheus and Grafana.
+  3. Restore valid API key after testing.
 
 **Verification**
 Check Prometheus: Verify metrics collection in the Prometheus web UI.

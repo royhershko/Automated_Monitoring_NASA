@@ -62,6 +62,7 @@ This script makes a request to the APOD endpoint every 60 seconds, checks if the
      
 ## 4. **Set Up Prometheus and Grafana Using Docker**:
    * Create a Docker Network
+        * docker network create monitoring-network
    * Create Prometheus Configuration File
    * Start Prometheus Container
    * Start Grafana Container

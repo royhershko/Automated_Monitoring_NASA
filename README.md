@@ -45,7 +45,8 @@ To run the monitoring script, execute the following command in the terminal:
 python3 nasa_monitor.py
 ```
 
-This script makes a request to the APOD endpoint every 60 seconds, checks if the response status code is 200 (indicating success), and prints the response time. You can expand this script to include more advanced monitoring features such as alerting, logging, and handling different types of errors.
+This script makes a request to the APOD endpoint every 60 seconds, checks if the response status code is 200 (indicating success), and prints the response time. 
+
 
 4. **Set Up Prometheus and Grafana Using Docker**:
    * Create a Docker Network

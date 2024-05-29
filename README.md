@@ -36,6 +36,10 @@ This project monitors the NASA Astronomy Picture of the Day (APOD) API endpoint 
      	 • Check the response status code and response time to ensure the API is functioning correctly.
 	    •	Log the responses and any errors for further analysis.
 
+# Set the environment variable before running the script:
+
+
+  * export NASA_API_KEY=your_api_key_here
 
 ##  **Running the Script**:
    Running the Script
@@ -47,7 +51,9 @@ python3 nasa_monitor.py
 
 This script makes a request to the APOD endpoint every 60 seconds, checks if the response status code is 200 (indicating success), and prints the response time. 
 
-
+	•	Handling API Key: To avoid hardcoding the API key in your script, you can use environment variables. 
+      Set an environment variable for your API key and modify the script to read it:
+     
 4. **Set Up Prometheus and Grafana Using Docker**:
    * Create a Docker Network
    * Create Prometheus Configuration File

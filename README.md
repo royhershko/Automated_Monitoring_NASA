@@ -1,4 +1,4 @@
-# Automated_Monitoring_NASA
+i# Automated_Monitoring_NASA
 set up automated monitoring and alerting for a simple web service.
 
 # NASA API Monitor
@@ -89,7 +89,7 @@ This script makes a request to the APOD endpoint every 60 seconds, checks if the
         * URL: http://localhost:9090
         * Click Save & Test.
    * Create a Dashboard
-        * Dashboard [NAME] = 'NASA-SRE'
+        * Dashboard [NAME] = 'My_Dashboard' =(Example)
    * Customize the Dashboard
 
 ## 7. **Create Alerting Rules in Prometheus**

@@ -25,6 +25,30 @@ This project monitors the NASA Astronomy Picture of the Day (APOD) API endpoint 
 
 ## Setup the API Key (NASA)
 
+	1.	Sign Up for an API Key:
+	   •	Visit the NASA API portal.
+	   •	Sign up for an API key. This key will be used to authenticate your requests.
+	2.	Choose an Endpoint to Monitor:
+	    •	Decide which specific API endpoint you want to monitor.
+	    •	For this Project, we take: Astronomy Picture of the Day (APOD): https://api.nasa.gov/planetary/apod
+	3.	Set Up Monitoring:
+	    •	Write a script () or use a monitoring tool to periodically make HTTP requests to the chosen endpoint.
+     	•	Check the response status code and response time to ensure the API is functioning correctly.
+	    •	Log the responses and any errors for further analysis.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   **Running the Script**:
    Running the Script
 To run the monitoring script, execute the following command in the terminal:

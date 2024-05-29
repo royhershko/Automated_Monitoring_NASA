@@ -36,7 +36,7 @@ This project monitors the NASA Astronomy Picture of the Day (APOD) API endpoint 
      	 • Check the response status code and response time to ensure the API is functioning correctly.
 	    •	Log the responses and any errors for further analysis.
 
-# Set the environment variable before running the script:
+## Set the environment variable before running the script:
 
 
   * export NASA_API_KEY=your_api_key_here

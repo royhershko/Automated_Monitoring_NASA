@@ -102,8 +102,12 @@ This script makes a request to the APOD endpoint every 60 seconds, checks if the
   
 ## 8. **Set Up Alertmanager**
    * Install Alertmanager
+     - Download and install Alertmanager from the Prometheus website.
    * Create Alertmanager Configuration File
+     - Create a file named (alertmanager.yml)
    * Start Alertmanager
+     * Run Alertmanager with the configuration file:
+         - ./alertmanager --config.file=alertmanager.yml
 
 ## 9. **Configure Grafana to Send Alerts**
       * Configure Notification Channels in Grafana

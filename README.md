@@ -94,9 +94,11 @@ This script makes a request to the APOD endpoint every 60 seconds, checks if the
 
 ## 7. **Create Alerting Rules in Prometheus**
    * Create Alerting Rules File
-     - Create a file named alert_rules.yml 
+     - Create a file named (alert_rules.yml)
    * Update Prometheus Configuration
+     - Update your (prometheus.yml) configuration file to include the alerting rules
    * Restart Prometheus
+     - sudo systemctl restart prometheus
   
 ## 8. **Set Up Alertmanager**
    * Install Alertmanager

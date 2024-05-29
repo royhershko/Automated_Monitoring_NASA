@@ -13,7 +13,7 @@ This project monitors the NASA Astronomy Picture of the Day (APOD) API endpoint 
 - Python 3. Ensure you have Python 3 installed on your machine.
 - A NASA API key. Sign up for an API key at [NASA API](https://api.nasa.gov/).
 
-## Setup
+## 1.Setup
 
 1. **Install Python 3**:
    If Python 3 is not already installed on your machine, you can download and install it from [python.org](https://www.python.org/downloads/).
@@ -26,7 +26,7 @@ This project monitors the NASA Astronomy Picture of the Day (APOD) API endpoint 
    sudo apt install python3-venv
 ```
 
-## Setup the API Key (NASA)
+## 2.Setup the API Key (NASA)
 
 	1.	Sign Up for an API Key:
 	   •	Visit the NASA API portal.
@@ -44,7 +44,7 @@ This project monitors the NASA Astronomy Picture of the Day (APOD) API endpoint 
 
   * export NASA_API_KEY=your_api_key_here
 
-##  **Running the Script**:
+## 3.**Running the Script**:
    Running the Script
 To run the monitoring script, execute the following command in the terminal:
 

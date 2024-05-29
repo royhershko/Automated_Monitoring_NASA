@@ -6,9 +6,10 @@ set up automated monitoring and alerting for a simple web service.
 This project monitors the NASA Astronomy Picture of the Day (APOD) API endpoint to ensure it is functioning correctly. It periodically makes HTTP requests to the API, checks the response status code, and logs the response time.
 
 ## Prerequisites
-
-
-
+- Docker
+- Prometheus
+- Grafana
+- Alertmanager
 - Python 3. Ensure you have Python 3 installed on your machine.
 - A NASA API key. Sign up for an API key at [NASA API](https://api.nasa.gov/).
 

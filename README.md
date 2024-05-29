@@ -1,4 +1,4 @@
-# Automated_Monitoring_NASA
+j# Automated_Monitoring_NASA
 set up automated monitoring and alerting for a simple web service.
 
 # NASA API Monitor
@@ -32,9 +32,10 @@ This project monitors the NASA Astronomy Picture of the Day (APOD) API endpoint 
 	    •	Decide which specific API endpoint you want to monitor.
 	    •	For this Project, we take: Astronomy Picture of the Day (APOD): https://api.nasa.gov/planetary/apod
 	3.	Set Up Monitoring:
-	    •	Write a script () or use a monitoring tool to periodically make HTTP requests to the chosen endpoint.
+	    •	Write a script (nasa_monitor.py) or use a monitoring tool to periodically make HTTP requests to the chosen endpoint.
      	•	Check the response status code and response time to ensure the API is functioning correctly.
 	    •	Log the responses and any errors for further analysis.
+
 
 
 

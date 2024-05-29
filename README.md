@@ -112,7 +112,7 @@ This script makes a request to the APOD endpoint every 60 seconds, checks if the
 ## 9. **Configure Grafana to Send Alerts**
       * Configure Notification Channels in Grafana
       * Create Alert Rules in Grafana
-      * Alert Group - 'Alert > DevOps'
+      * Alert Group - Alert > 'My_Alert'
   
 ## 10. **Simulate Service Downtime**
 

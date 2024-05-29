@@ -23,7 +23,9 @@ This project monitors the NASA Astronomy Picture of the Day (APOD) API endpoint 
    sudo apt install python3-venv
 ```
 
-3. **Running the Script**:
+## Setup the API Key (NASA)
+
+  **Running the Script**:
    Running the Script
 To run the monitoring script, execute the following command in the terminal:
 

@@ -94,6 +94,7 @@ This script makes a request to the APOD endpoint every 60 seconds, checks if the
 
 ## 7. **Create Alerting Rules in Prometheus**
    * Create Alerting Rules File
+     - Create a file named alert_rules.yml 
    * Update Prometheus Configuration
    * Restart Prometheus
   

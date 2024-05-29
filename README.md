@@ -37,26 +37,15 @@ This project monitors the NASA Astronomy Picture of the Day (APOD) API endpoint 
 	    •	Log the responses and any errors for further analysis.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-  **Running the Script**:
+##  **Running the Script**:
    Running the Script
 To run the monitoring script, execute the following command in the terminal:
 
 ```bash
 python3 nasa_monitor.py
 ```
+
+This script makes a request to the APOD endpoint every 60 seconds, checks if the response status code is 200 (indicating success), and prints the response time. You can expand this script to include more advanced monitoring features such as alerting, logging, and handling different types of errors.
 
 4. **Set Up Prometheus and Grafana Using Docker**:
    * Create a Docker Network

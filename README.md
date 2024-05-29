@@ -7,6 +7,8 @@ This project monitors the NASA Astronomy Picture of the Day (APOD) API endpoint 
 
 ## Prerequisites
 
+
+
 - Python 3. Ensure you have Python 3 installed on your machine.
 - A NASA API key. Sign up for an API key at [NASA API](https://api.nasa.gov/).
 
@@ -52,7 +54,10 @@ python3 nasa_monitor.py
 This script makes a request to the APOD endpoint every 60 seconds, checks if the response status code is 200 (indicating success), and prints the response time. 
 
 	•	Handling API Key: To avoid hardcoding the API key in your script, you can use environment variables. 
-      Set an environment variable for your API key and modify the script to read it:
+      Set an environment variable for your API key and modify the script to read it
+
+
+
      
 4. **Set Up Prometheus and Grafana Using Docker**:
    * Create a Docker Network

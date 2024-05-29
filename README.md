@@ -60,17 +60,17 @@ This script makes a request to the APOD endpoint every 60 seconds, checks if the
 
 
      
-4. **Set Up Prometheus and Grafana Using Docker**:
+## 4. **Set Up Prometheus and Grafana Using Docker**:
    * Create a Docker Network
    * Create Prometheus Configuration File
    * Start Prometheus Container
    * Start Grafana Container
   
-5. **Modify the Monitoring Script to Expose Metrics**:
+## 5. **Modify the Monitoring Script to Expose Metrics**:
    * Install Prometheus Client Library
    * Update the Script to Expose Metrics
 
-6. **Configure Grafana**
+## 6. **Configure Grafana**
    * Access Grafana
         * http://localhost:3000
         * user & pass = 'admin' (need to change the pass).
@@ -81,30 +81,30 @@ This script makes a request to the APOD endpoint every 60 seconds, checks if the
         * Dashboard [NAME] = 'NASA-SRE'
    * Customize the Dashboard
 
-7. **Create Alerting Rules in Prometheus**
+## 7. **Create Alerting Rules in Prometheus**
    * Create Alerting Rules File
    * Update Prometheus Configuration
    * Restart Prometheus
   
-8. **Set Up Alertmanager**
+## 8. **Set Up Alertmanager**
    * Install Alertmanager
    * Create Alertmanager Configuration File
    * Start Alertmanager
 
-9. **Configure Grafana to Send Alerts**
-    * Configure Notification Channels in Grafana
-    * Create Alert Rules in Grafana
-        * Alert Group - 'Alert > DevOps'
+## 9. **Configure Grafana to Send Alerts**
+      * Configure Notification Channels in Grafana
+      * Create Alert Rules in Grafana
+      * Alert Group - 'Alert > DevOps'
   
-10. **Simulate Service Downtime**
+## 10. **Simulate Service Downtime**
 
-     * Service Downtime
-         * Modify /etc/hosts:
+          * Service Downtime
+          * Modify /etc/hosts:
 
-   * 127.0.0.1 api.nasa.gov
+        * 127.0.0.1 api.nasa.gov
 
 
-Verify errors in Prometheus and Grafana.
+## Verify errors in Prometheus and Grafana.
 Restore /etc/hosts after testing:
 
    * 127.0.0.1 api.nasa.gov
@@ -128,7 +128,7 @@ API_KEY = 'invalid_api_key'
   2. Verify error rate metrics in Prometheus and Grafana.
   3. Restore valid API key after testing.
 
-        **Verification**
+##        **Verification**
  * **Check Prometheus**: Verify metrics collection in the Prometheus web UI.
  * **Check Grafana**: Ensure panels are displaying metrics correctly.
  * **Check Alertmanager**: Verify alerts are triggered when thresholds are exceeded.

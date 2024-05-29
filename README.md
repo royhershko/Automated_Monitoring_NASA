@@ -74,8 +74,12 @@ This script makes a request to the APOD endpoint every 60 seconds, checks if the
 
   
 ## 5. **Modify the Monitoring Script to Expose Metrics**:
-   * Install Prometheus Client Library
+   * Install Prometheus Client Library =(prometheus_client)
    * Update the Script to Expose Metrics
+   * Activate your virtual environment
+
+    - pip install prometheus_client
+
 
 ## 6. **Configure Grafana**
    * Access Grafana

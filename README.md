@@ -64,7 +64,10 @@ This script makes a request to the APOD endpoint every 60 seconds, checks if the
    * Create a Docker Network
         * docker network create monitoring-network
    * Create Prometheus Configuration File
+        * Create a (prometheus.yml) file
    * Start Prometheus Container
+        * Run the Prometheus container with the configuration file:
+           - docker run -d --name=prometheus --network=monitoring-network -p 9090:9090 -v $(pwd)/prometheus.yml:/etc/prometheus/prometheus.yml prom/prometheus
    * Start Grafana Container
   
 ## 5. **Modify the Monitoring Script to Expose Metrics**:

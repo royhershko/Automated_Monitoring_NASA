@@ -104,7 +104,7 @@ This script makes a request to the APOD endpoint every 60 seconds, checks if the
         * 127.0.0.1 api.nasa.gov
 
 
-## Verify errors in Prometheus and Grafana.
+## 11.Verify errors in Prometheus and Grafana.
 Restore /etc/hosts after testing:
 
    * 127.0.0.1 api.nasa.gov

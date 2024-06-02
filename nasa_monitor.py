@@ -6,10 +6,11 @@ API_KEY = 'your_api_key_here'  # Replace with your actual API key
 ENDPOINT = 'https://api.nasa.gov/planetary/apod'
 PARAMS = {'api_key': API_KEY}
 
-# Prometheus metrics
+# Define Prometheus metrics
 REQUEST_TIME = Summary('request_processing_seconds', 'Time spent processing request')
 ERROR_COUNT = Counter('error_count', 'Total number of errors')
 
+# Define the Monitoring Function
 @REQUEST_TIME.time()
 def monitor_apod():
     while True:
